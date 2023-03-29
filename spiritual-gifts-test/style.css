@@ -1,0 +1,2016 @@
+/*---------------------------------------------------------------------------------
+
+ Theme Name:   Spiritual Gifts Test
+ Theme URI:    https://www.manupmedia.org
+ Description:
+ Author:       Will MacQuinn
+ Author URI:   https://www.manupmedia.org
+ Template:     Divi
+ Version:      2.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  https://www.gnu.org/licenses/gpl-2.0.html
+
+------------------------------ ADDITIONAL CSS HERE ------------------------------*/
+
+/* New Home Page
+--------------------------------------------------------*/
+div#content-area {
+    padding-bottom: 20px;
+}
+#main-content .container {
+    padding-top: 80px !important;
+}
+.page-id-3273 .container,
+.page-template-landing-page .container,
+.home .et_pb_row {
+    max-width: 100%;
+    width: 100%;
+}
+.page-id-3273 .logo_container,
+.page-template-landing-page .logo_container {
+    padding-left: 5%;
+}
+.page-id-3273 div#et-top-navigation,
+.page-template-landing-page div#et-top-navigation {
+    padding-right: 5% !important;
+}
+.page-id-3273 h1,
+.page-template-landing-page h1 {
+    font-size: 4rem;
+    color: #000;
+    font-weight: 700;
+    text-align: center;
+    font-family: 'Comfortaa',display;
+}
+.page-id-3273 .front-page-1 .wrap, .page-id-3273 .front-page-2 .wrap, .page-id-3273 .front-page-3 .wrap, .page-id-3273 .front-page-4 .wrap {
+    max-width: 650px;
+    margin: 0 auto;
+    text-align: center;
+}
+.page-id-3273 p {
+    font-size: 1rem;
+    color: #000;
+}
+.front-page-1 p,
+.front-page-3 p {
+    color: #000;
+}
+.front-page-2 p {
+    color: #fff;
+}
+.front-page-1 {
+    padding-top: 7%;
+}
+.page-id-3273 .front-page-1 .wrap {
+    margin-bottom: -8px;
+}
+.page-id-3273 .front-page-2 {
+    padding-top: 7%;
+    background: linear-gradient(#2D6662,#0c5074,#0c5074);
+}
+.page-id-3273 .front-page-2 img {
+    margin-bottom: -10px;
+}
+.page-id-3273 .front-page-2 h1, .page-id-3273 .front-page-2 .wrap {
+    color: #fff;
+}
+.page-id-3273 .front-page-3 {
+  padding-top: 7%;
+  background: #eee;
+}
+.page-id-3273 .front-page-3 img {
+  margin-bottom: -15px;
+}
+.page-id-3273 .front-page-4 {
+  padding-top: 7%;
+}
+.home h1.entry-title.main_title {
+    display: none;
+}
+.front-page-image-logo-container {
+    position: relative;
+}
+.front-page-image-logo-container .logo {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.front-page-image-logo-container .logo img {
+    width: 30%;
+    margin-top: 100px;
+    padding: 25px;
+    border: 5px solid #0f5075;
+    border-radius: 150px;
+    background: #ffffffba;
+    transition: .5s;
+}
+.front-page-image-logo-container .logo img:hover {
+    background: #fff;
+}
+/* Landing Pages */
+
+.page-template-landing-page h1.entry-title.main_title {
+  display: none;
+}
+.page-template-landing-page #main-content .container {
+  padding-top: 0 !important;
+}
+.page-template-landing-page h1 {
+  color: #fff !important;
+  margin-bottom: 20px;
+}
+.page-template-landing-page button {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #0c5074;
+  background: #ffffff;
+  border-radius: 20px;
+  width: auto;
+  padding: 5px 25px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.page-template-landing-page .section-1 {
+  background: url(https://sgtstaging.wpengine.com/wp-content/uploads/2018/04/robb-leahy-512379-unsplash.jpg);
+  padding: 5% 0 8%;
+  background-size: cover;
+  height: auto;
+  margin-bottom: 40px;
+  position: relative;
+}
+.show-if-loggedout {
+    display: none;
+}
+body.role- .show-if-loggedout {
+    display: block;
+}
+
+.show-if-loggedout,
+.show-if-unassignedspiritualgiftstest,
+.show-if-unassignedpersonalitytest,
+.show-if-unassignedchurchadmin {
+    display: none;
+}
+body.role- .show-if-loggedout,
+body.unassignedspiritualgiftstest .show-if-unassignedspiritualgiftstest,
+body.unassignedpersonalitytest .show-if-unassignedpersonalitytest,
+body.unassignedchurchadmin .show-if-unassignedchurchadmin {
+    display: block;
+}
+
+.login h1 a {
+    background-size: contain !important;
+}
+.page-template-landing-page #post-3305 .section-1 {
+  background-image: url(https://sgtstaging.wpengine.com/wp-content/uploads/2018/04/robb-leahy-512379-unsplash.jpg);
+}
+.page-template-landing-page #post-3294 .section-1 {
+  background-image: url(https://sgtstaging.wpengine.com/wp-content/uploads/2018/04/rawpixel-com-196464-unsplash.jpg);
+}
+.page-template-landing-page #post-3309 .section-1 {
+  background-image: url(https://sgtstaging.wpengine.com/wp-content/uploads/2018/04/william-white-34988-unsplash.jpg);
+}
+.section-1:after {
+  content: '';
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(#2d66629e,#0c50749e,#0c5074b8);
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 0;
+}
+.page-template-landing-page .section-1 .wrap, .page-template-landing-page .section-2 .wrap, .page-template-landing-page .section-3 .wrap, .page-template-landing-page .section-4 .wrap, .page-template-landing-page .section-5 .wrap, .page-template-landing-page .section-6 .wrap {
+  max-width: 1000px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+.section-1 p {
+  width: 650px;
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+}
+.section-1 img {
+  height: 50px;
+  float: left;
+  margin: 0px 4%;
+  display: block;
+  text-align: center;
+}
+.section-1 .image.wrap {
+  margin-top: 20px;
+}
+.right {
+  width: 45%;
+  float: right;
+}
+.left {
+  width: 45%;
+  float: left;
+}
+.section-2, .section-3, .section-4 {
+  position: relative;
+  height: 450px;
+}
+.page-id-3309 .section-4 {
+    height: 500px;
+}
+.page-template-landing-page h2 {
+  color: #000;
+  font-weight: 700;
+  font-size: 2.5rem;
+  font-family: 'Comfortaa',display;
+}
+.section-1 h2 {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 3rem;
+}
+.page-template-landing-page p {
+  font-size: 1rem;
+  margin-top: 10px;
+  font-family: montserrat;
+}
+.section-2 img, .section-3 img, .section-4 img {
+  box-shadow: 4px 4px 60px 10px #999;
+  background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 100%);
+  position: relative;
+  padding: 1px;
+  display: inline-block;
+  height: auto;
+}
+.section-5 {
+  background: linear-gradient(#2D6662,#0c5074,#0c5074);
+  color: #fff;
+  padding: 5% 0;
+  height: 520px;
+  margin-bottom: 20px;
+}
+.section-5 h2 {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.testimonial h3 {
+  color: #000;
+  font-family: 'Comfortaa',display;
+  text-align: center;
+  font-weight: 700;
+  padding-bottom: 0;
+  font-size: 1.2rem;
+}
+.testimonial p {
+  font-size: 0.8rem;
+  line-height: 1.4;
+}
+.testimonial {
+  float: left;
+  width: 30%;
+  margin: 0 1.6%;
+  background: #fff;
+  color: #000;
+  padding: 30px;
+  height: 280px;
+}
+.section-6 .wrap {
+  max-width: 600px !important;
+  text-align: center;
+  padding: 5% 0;
+}
+.section-6 a {
+  background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 100%);
+  position: relative;
+  padding: 0px 1px;
+  display: inline-block;
+  border-radius: 20px;
+  height: 41px;
+  width: auto;
+  margin-top: 40px;
+}
+.section-6 button {
+  width: auto;
+  color: #000;
+  top: -19px;
+  position: relative;
+  border: none;
+}
+.send-via-email {
+    width: 100%;
+    max-width: 1080px;
+    margin: 0px auto 100px;
+    text-align: center;
+}
+.send-via-email.embedded-test {
+    margin-top: 130px;;
+}
+.send-via-email.embedded-test #gform_25 .gform_body {
+    padding-top: 7px;
+}
+.send-via-email.embedded-test #gform_25 .gform_body input#input_25_1 {
+    width: 96%;
+}
+div#gform_wrapper_25 {
+    width: 100%;
+    clear: both;
+    float: left;
+    margin-bottom: 0;
+    padding-bottom: 0 !important;
+}
+#gform_25 .gform_body {
+    width: 80% !important;
+    float: left !important;
+    clear: none !important;
+}
+#gform_25 .gform_body input#input_25_1 {
+    width: 100%;
+}
+#gform_25 .gform_footer.top_label {
+    float: left;
+    clear: none;
+    width: 20%;
+    padding: 21px 0px 0px;
+}
+input#gform_submit_button_25 {
+    height: 50px;
+    padding: 0 !important;
+    margin: 0.65em 0 !important;
+}
+.delete-results {
+    width: 80%;
+    max-width: 1080px;
+    margin: 0 auto 40px;
+    text-align: center;
+    background: #f7dddd;
+    padding: 5px 0;
+}
+
+/* Support Form */
+ol.sgt-support-starter-steps {
+  width: 80%;
+  margin: 0 auto;
+}
+ol.sgt-support-starter-steps li {
+  text-indent: 50px;
+}
+
+/* Landing Page Mobile */
+@media only screen and (max-width: 1050px) {
+  .page-template-landing-page .section-1 .wrap, .page-template-landing-page .section-2 .wrap, .page-template-landing-page .section-3 .wrap, .page-template-landing-page .section-4 .wrap, .page-template-landing-page .section-5 .wrap, .page-template-landing-page .section-6 .wrap {
+    max-width: 800px;
+  }
+  .section-1 img {
+    height: 40px;
+    margin: 0px 4%;
+  }
+  .page-template-landing-page h2 {
+    font-size: 2rem;
+  }
+  .page-template-landing-page p {
+    font-size: 0.8rem;
+    margin-top: 0px;
+  }
+  .testimonial {
+    padding: 20px;
+  }
+  .section-1 h2 {
+    font-size: 2.5rem;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .section-5 {
+    height: auto;
+    float: left;
+    display: block;
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .right, .left {
+    width: 100%;
+    float: none;
+    margin-bottom: 20px;
+  }
+  .section-2, .section-3, .section-4 {
+    height: auto;
+    padding: 0 10%;
+    margin-bottom: 50px;
+  }
+  .section-2 img, .section-3 img, .section-4 img {
+    width: 320px;
+    margin: 0 auto;
+    display: block;
+  }
+  .section-1 p {
+    width: 90%;
+  }
+  .page-template-landing-page #post-3309 .section-1 {
+    padding: 10% 0 20%;
+  }
+  .section-1 .image.wrap {
+    max-width: 300px !important;
+  }
+  .section-1 img {
+    height: 30px;
+    margin: 6px 7.8%;
+  }
+  .testimonial {
+    float: none;
+    width: 300px;
+    margin: 0 auto 30px;
+    height: 200px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .page-template-landing-page #post-3309 .section-1 {
+    padding: 10% 0 30%;
+  }
+}
+
+/* Footer Bottom */
+#footer-bottom .et-social-icon a.socicon {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+#footer-bottom li.et-social-icon {
+    margin: 0 20px;
+}
+#footer-bottom ul.et-social-icons {
+    width: 100%;
+    float: left;
+    clear: both;
+    text-align: center;
+    top: 100px;
+}
+#footer-bottom p#footer-info {
+    padding: 60px 0 120px;
+}
+#footer-bottom .et-social-icon a {
+    border: 1px solid;
+    border-radius: 30px;
+    font-size: 1rem;
+    padding: 10px 11px 5px 12px;
+}
+
+
+#learndash_course_content_title {
+    margin-bottom: 5px;
+    padding-top: 25px;
+}
+/* Personality Quiz Styling */
+.test-wrap .gfield_radio li {
+    width: 20%;
+    float: left;
+}
+.test-wrap .gform_body li {
+    text-align: center;
+    height: 110px;
+    font-size: 1.5em;
+}
+.test-wrap input[type=radio] {
+    display: none !important;
+}
+.test-wrap input[type=radio] label {
+  position: relative;
+  cursor: pointer;
+}
+.test-wrap input[type=radio] + label:before {
+    content: '';
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin: 0px 8px 0 8px;
+    vertical-align: middle;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 1px solid #888;
+    transition: .3s;
+}
+.test-wrap .ginput_container.ginput_container_radio {
+    width: 380px;
+    margin: 0 auto;
+}
+.test-wrap .gform_wrapper ul.gfield_radio li label {
+    width: 60px;
+}
+.test-wrap .gform_wrapper ul.gform_fields li.gfield {
+    border: 1px solid #eee;
+    height: 220px;
+    padding: 50px 0;
+    border-top: none;
+    margin-top: 0;
+}
+.test-wrap .gform_wrapper ul.gform_fields li.gfield:first-child {
+    border-top: 1px solid #eee;
+}
+.test-wrap .gform_wrapper .gf_progressbar {
+    background: #eee;
+    padding: 0;
+    height: 50px;
+    border: 6px solid #0c5275;
+}
+.test-wrap .gform_fields {
+    padding-left: 0 !important;
+}
+.test-wrap .gform_page_footer {
+    text-align: center !important;
+}
+.test-wrap .button {
+    width: 300px !important;
+}
+.test-wrap .button:hover {
+    color: #fff !important;
+    background: #0c5275 !important;
+}
+body .test-wrap .gform_wrapper .gf_progressbar_percentage {
+    height: 38px;
+    background: #0c5375;
+    left: -1px;
+    position: relative;
+}
+.test-wrap .gform_wrapper .gf_progressbar:after {
+    height: 38px;
+    margin-top: -38px;
+    background: transparent;
+}
+.test-wrap .gform_page_footer {
+    border: none !important;
+}
+.test-wrap .gform_wrapper .gf_progressbar_percentage span {
+    line-height: 1.85;
+    font-size: 2em;
+    font-weight: 900;
+}
+#left-area .test-wrap ul li ul {
+    padding: 2px 20px 2px 0px !important;
+}
+
+
+.test-wrap .gfield li:first-child input[type=radio] + label:hover:before,
+.test-wrap .gfield li:nth-child(n+2) input[type=radio] + label:hover:before {
+      background: #a7200187;
+}
+.test-wrap .gfield li:first-child input[type=radio]:checked + label:before,
+.test-wrap .gfield li:nth-child(n+2) input[type=radio]:checked + label:before {
+    background: #a72001;
+}
+.test-wrap .gfield li:first-child label:before {
+    border: 5px solid #a72001;
+}
+.test-wrap .gfield li:nth-child(n+2) label:before {
+    border: 5px solid #a72001;
+    width: 35px;
+    height: 35px;
+}
+.test-wrap .gfield li:nth-child(n+3) input[type=radio] + label:hover:before {
+    background: #db61289c;
+}
+.test-wrap .gfield li:nth-child(n+3) input[type=radio]:checked + label:before {
+    background: #db6128;
+}
+.test-wrap .gfield li:nth-child(n+3) label:before {
+    border: 5px solid #db6128;
+    width: 30px;
+    height: 30px;
+}
+.test-wrap .gfield li:nth-child(n+4) input[type=radio] + label:hover:before,
+.test-wrap .gfield li:nth-child(n+5) input[type=radio] + label:hover:before {
+    background: #678d3e7a;
+}
+.test-wrap .gfield li:nth-child(n+4) input[type=radio]:checked + label:before,
+.test-wrap .gfield li:nth-child(n+5) input[type=radio]:checked + label:before {
+    background: #678d3e;
+}
+.test-wrap .gfield li:nth-child(n+4) label:before {
+    border: 5px solid #678d3e;
+    width: 35px;
+    height: 35px;
+}
+.test-wrap .gfield li:nth-child(n+5) label:before {
+    border: 5px solid #678d3e;
+    width: 40px;
+    height: 40px;
+}
+.test-wrap .button {
+    border-width: 5px !important;
+}
+body.role-customer .my-account-custom-links,
+body.role-spiritualgiftstest .my-account-custom-links,
+body.role-personalitytest .my-account-custom-links,
+body.role-churchadmin .my-account-custom-links,
+#invisable-to-role-churchadmin,
+li#menu-item-2803,
+div#visable-to-role-spiritualgiftstest-only,
+body.role-administrator #quick-links #invisable-to-role-churchadmin  {
+	display: none;
+}
+body.role-customer #visable-to-role-customer,
+body.role-spiritualgiftstest #visable-to-role-spiritualgiftstest,
+body.role-personalitytest #visable-to-role-personalitytest,
+body.role-personalitytest #visable-to-role-spiritualgiftstest,
+body.role-churchadmin #visable-to-role-personalitytest,
+body.role-churchadmin #visable-to-role-spiritualgiftstest,
+body.role-churchadmin #visable-to-role-churchadmin,
+body.role-personalitytest li#menu-item-2803,
+body.role-churchadmin  li#menu-item-2803,
+body.role-administrator li#menu-item-2803,
+body.role-spiritualgiftstest div#visable-to-role-spiritualgiftstest-only,
+body.role-spiritualgiftstest #invisable-to-role-churchadmin,
+body.role-personalitytest #invisable-to-role-churchadmin {
+	display: block;
+}
+#main-content.church-personality-test .container:before {
+	display: none;
+}
+div#main-content.church-personality-test div#left-area {
+    width: 100%;
+    padding: 0;
+}
+span.gfield_required {
+    display: none;
+}
+body #visable-to-logedin-users,
+body.logged-in div#login-module-invisable-whenlogedin,
+body #login-module-invisable-logedout {
+    display: none;
+}
+body.logged-in #visable-to-logedin-users,
+body.logged-in #login-module-invisable-logedout {
+    display: block;
+}
+.icon-wrapper-accountpage span.et_pb_image_wrap {
+    width: 105px;
+    height: 105px;
+}
+.icon-wrapper-accountpage img {
+    width: 100%;
+    padding: 15px 15px;
+}
+.icon-wrapper-accountpage .et_pb_main_blurb_image .et_pb_image_wrap,
+.icon-wrapper-accountpage .et_pb_main_blurb_image .et_pb_image_wrap span {
+    transition: 0.5s;
+    box-shadow: 0px 0px 0px #333;
+}
+.icon-wrapper-accountpage .et_pb_main_blurb_image .et_pb_image_wrap:hover,
+.icon-wrapper-accountpage .et_pb_main_blurb_image .et_pb_image_wrap:hover span {
+    border-color: #db6128 !important;
+    box-shadow: -1px 2px 5px #333;
+}
+/* My Account Page - Simple Question Checkbox */
+.page-id-9 #gform_wrapper_26 h3.gform_title {
+    font-size: 1em;
+    color: #a72001;
+    margin-left: 20px;
+}
+.page-id-9 #gform_wrapper_26 .gform_heading {
+    margin-bottom: 0;
+}
+.page-id-9 #gform_wrapper_26 .gform_body {
+    padding: 0 4%;
+    margin: 0;
+}
+.page-id-9 #gform_wrapper_26 label.gfield_label {
+    display: none;
+}
+.page-id-9 #gform_wrapper_26 ul li.gfield,
+.page-id-9 #gform_wrapper_26 ul li.field_description_below div.ginput_container_checkbox {
+  margin-top: 0;
+}
+
+/* Results Page */
+.page-id-2870 div#main-content {
+    padding-top: 50px;
+}
+.page-id-2870 div#main-content {
+    padding-top: 50px;
+}
+div#main-content .title {
+    font-size: 46px;
+    color: #0d5175;
+    padding: 0px 0px 50px;
+    width: 80%;
+    max-width: 1080px;
+    margin: 50px auto 0px;
+}
+.results-page-section {
+    width: 80%;
+    max-width: 1080px;
+    margin: 0px auto;
+}
+.info {
+    font-size: .9em;
+    font-style: italic;
+}
+.name {
+    font-weight: bold;
+    padding: 10px 0px 5px;
+}
+.signature {
+    padding: 30px 0px;
+}
+.section-icon {
+    width: 33.3%;
+    float: left;
+}
+.section-icon img {
+    width: 50%;
+    margin: 0px 25% 0px;
+    border: 5px solid #678d40;
+    border-radius: 150px;
+    padding: 30px;
+    box-shadow: 0px 0px 0px #333;
+    transition: 0.5s;
+}
+.section-icon img:hover {
+    border-color: #db6128;
+    box-shadow: -1px 2px 5px #333;
+    background: #f4f4f4;
+    transition: 0.5s;
+}
+.icon-text {
+    text-align: center;
+    color: #678d40;
+    font-size: 1.4em;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+div#sgt-results,
+div#personality-results,
+div#combined-results {
+  height: 0px;
+  overflow: hidden;
+  width: 100%;
+  opacity: 0;
+  transition: 1s;
+}
+div#sgt-results.active,
+div#personality-results.active,
+div#combined-results.active {
+    height: auto;
+    margin: 25px auto;
+    opacity: 1;
+}
+.multicolor-divider div {
+    width: 25%;
+    height: 20px;
+    float: left;
+}
+.multicolor-divider div:first-child {
+    background: #0f5075;
+}
+.multicolor-divider div:nth-child(2) {
+    background: #a72001;
+}
+.multicolor-divider div:nth-child(3) {
+    background: #db6128;
+}
+.multicolor-divider div:nth-child(4) {
+    background: #668d40;
+}
+.multicolor-divider {
+    margin: 25px 0px;
+    height: 20px;
+    clear: both;
+}
+.section-header {
+    color: #0f5075;
+    font-size: 2.2em;
+    line-height: initial;
+    margin: 50px 0px 25px;
+}
+.body-text.static {
+    margin: 5px 0px 25px;
+}
+.sub-header {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.sgt-results-graph table,
+#quick-summary table  {
+    width: 100%;
+    color: #fff;
+}
+.sgt-results-graph th,
+#quick-summary th {
+    background: #0f5075;
+    font-size: 1.5em;
+    padding: 15px;
+    border: 5px solid#fff;
+}
+.sgt-results-graph td {
+    padding: 10px;
+    margin: 0;
+    border: 5px solid #fff;
+    background: #333;
+    font-size: 1.3em;
+    text-align: center;
+    text-transform: capitalize;
+}
+#quick-summary td {
+  padding: 10px;
+  margin: 0;
+  border: 5px solid #fff;
+  font-size: 1.3em;
+  text-align: center;
+  text-transform: capitalize;
+}
+#quick-summary .personality-results td {
+  background: #114f75;
+}
+tr.administration td,
+tr.exhortation td,
+tr.serving td,
+tr.leadership td,
+tr.mercy td,
+tr.giving td,
+#church-results-page-wrapper tr.administration td,
+#church-results-page-wrapper tr.exhortation td,
+#church-results-page-wrapper tr.serving td,
+#church-results-page-wrapper tr.leadership td,
+#church-results-page-wrapper tr.mercy td,
+#church-results-page-wrapper tr.giving td,
+.sgt-results-top-three .sub-header.administration,
+.sgt-results-top-three .sub-header.exhortation,
+.sgt-results-top-three .sub-header.serving,
+.sgt-results-top-three .sub-header.leadership,
+.sgt-results-top-three .sub-header.mercy,
+.sgt-results-top-three .sub-header.giving {
+  background: #0f5075;
+}
+.quick-summary-table {
+    float: left;
+    width: 50%;
+    padding: 0px 5%;
+}
+tr.toungs td,
+tr.faith td,
+tr.healing td,
+tr.miracles td,
+#church-results-page-wrapper tr.toungs td,
+#church-results-page-wrapper tr.faith td,
+#church-results-page-wrapper tr.healing td,
+#church-results-page-wrapper tr.miracles td,
+.sgt-results-top-three .sub-header.toungs,
+.sgt-results-top-three .sub-header.faith,
+.sgt-results-top-three .sub-header.healing,
+.sgt-results-top-three .sub-header.miracles {
+  background: #a72001;
+}
+
+tr.interpretationoftoungs td,
+tr.discernment td,
+tr.knowledge td,
+tr.wisdom td,
+#church-results-page-wrapper tr.interpretationoftoungs td,
+#church-results-page-wrapper tr.discernment td,
+#church-results-page-wrapper tr.knowledge td,
+#church-results-page-wrapper tr.wisdom td,
+.sgt-results-top-three .sub-header.interpretationoftoungs,
+.sgt-results-top-three .sub-header.discernment,
+.sgt-results-top-three .sub-header.knowledge,
+.sgt-results-top-three .sub-header.wisdom {
+  background: #dc6029;
+}
+
+tr.prophecy td,
+tr.teaching td,
+tr.evangelism td,
+tr.apostleship td,
+tr.pastoring td,
+#church-results-page-wrapper tr.prophecy td,
+#church-results-page-wrapper tr.teaching td,
+#church-results-page-wrapper tr.evangelism td,
+#church-results-page-wrapper tr.apostleship td,
+#church-results-page-wrapper tr.pastoring td,
+.sgt-results-top-three .sub-header.prophecy,
+.sgt-results-top-three .sub-header.teaching,
+.sgt-results-top-three .sub-header.evangelism,
+.sgt-results-top-three .sub-header.apostleship,
+.sgt-results-top-three .sub-header.pastoring {
+  background: #658d40;
+}
+.subsection-header {
+    font-size: 1.5em;
+    margin: 25px 0 15px;
+    color: #114f75;
+}
+#personality-results .subsection-header {
+    font-size: 2.5em;
+    margin: 50px 0 15px -5%;
+    color: #114f75;
+}
+.sgt-results-top-three > div.two {
+    margin: 0px 2%;
+}
+.sgt-results-top-three > div {
+    width: 32%;
+    float: left;
+}
+.sgt-results-top-three .sub-header {
+    text-align: center;
+    color: #fff;
+    padding: 15px 0px;
+    background: #333;
+    margin: 0px 0px 15px;
+}
+.sgt-results-top-three > div .body-text {
+    height: 160px;
+    overflow: hidden;
+}
+.sgt-results-top-three > div .body-text.active {
+    height: auto;
+}
+.topthree-readmore {
+    position: absolute;
+    padding: 5px 10px;
+    border: 1px solid #114f75;
+    margin: 10px 0px 0px;
+    cursor: pointer;
+}
+.topthree-readmore.active {
+    display: none;
+}
+#sgt-results .multicolor-divider {
+    margin: 70px 0px 0px;
+    float: left;
+    width: 100%;
+}
+.multicolor-divider.combined-title div:first-child {
+    width: 60%;
+    color: #222;
+    font-size: 1.2em;
+    padding: 10px 10px;
+    background: none;
+    border-bottom: 4px solid;
+}
+.multicolor-divider.combined-title div:first-child:before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    display: block;
+    float: left;
+    margin: 5px 10px 0px -10px;
+}
+.multicolor-divider.combined-title div:nth-child(4) {
+    color: #222;
+    text-align: center;
+    padding: 10px 0px;
+}
+.sub-header.active .multicolor-divider.combined-title div:nth-child(4) span:nth-child(1) {
+  display: none;
+}
+.sub-header .multicolor-divider.combined-title div:nth-child(4) span:nth-child(2) {
+  display: block;
+}
+.sub-header .multicolor-divider.combined-title div:nth-child(4) span:nth-child(2) {
+  display: none;
+}
+.sub-header.active .multicolor-divider.combined-title div:nth-child(4) span:nth-child(2) {
+  display: block;
+}
+.multicolor-divider.combined-title div {
+    height: 40px;
+    width: 13.33%;
+}
+.multicolor-divider.combined-title {
+    height: 40px;
+    cursor: pointer;
+}
+
+.combinedresults.administration .multicolor-divider.combined-title div:first-child,
+.combinedresults.exhortation .multicolor-divider.combined-title div:first-child,
+.combinedresults.serving .multicolor-divider.combined-title div:first-child,
+.combinedresults.leadership .multicolor-divider.combined-title div:first-child,
+.combinedresults.mercy .multicolor-divider.combined-title div:first-child,
+.combinedresults.giving .multicolor-divider.combined-title div:first-child  {
+  border-color: #0f5075;
+}
+.combinedresults.administration .multicolor-divider.combined-title div:nth-child(2),
+.combinedresults.exhortation .multicolor-divider.combined-title div:nth-child(2),
+.combinedresults.serving .multicolor-divider.combined-title div:nth-child(2),
+.combinedresults.leadership .multicolor-divider.combined-title div:nth-child(2),
+.combinedresults.mercy .multicolor-divider.combined-title div:nth-child(2),
+.combinedresults.giving .multicolor-divider.combined-title div:nth-child(2)  {
+  background: none;
+  border-bottom: 4px solid #a72001;
+}
+.combinedresults.administration .multicolor-divider.combined-title div:nth-child(3),
+.combinedresults.exhortation .multicolor-divider.combined-title div:nth-child(3),
+.combinedresults.serving .multicolor-divider.combined-title div:nth-child(3),
+.combinedresults.leadership .multicolor-divider.combined-title div:nth-child(3),
+.combinedresults.mercy .multicolor-divider.combined-title div:nth-child(3),
+.combinedresults.giving .multicolor-divider.combined-title div:nth-child(3)  {
+  background: none;
+  border-bottom: 4px solid #db6128;
+}
+.combinedresults.administration .multicolor-divider.combined-title div:nth-child(4),
+.combinedresults.exhortation .multicolor-divider.combined-title div:nth-child(4),
+.combinedresults.serving .multicolor-divider.combined-title div:nth-child(4),
+.combinedresults.leadership .multicolor-divider.combined-title div:nth-child(4),
+.combinedresults.mercy .multicolor-divider.combined-title div:nth-child(4),
+.combinedresults.giving .multicolor-divider.combined-title div:nth-child(4)  {
+  background: none;
+  border-bottom: 4px solid #668d40;
+}
+.combinedresults.administration .multicolor-divider.combined-title div:first-child:before,
+.combinedresults.exhortation .multicolor-divider.combined-title div:first-child:before,
+.combinedresults.serving .multicolor-divider.combined-title div:first-child:before,
+.combinedresults.leadership .multicolor-divider.combined-title div:first-child:before,
+.combinedresults.mercy .multicolor-divider.combined-title div:first-child:before,
+.combinedresults.giving .multicolor-divider.combined-title div:first-child:before  {
+  background: #0f5075;
+}
+.combinedresults.toungs .multicolor-divider.combined-title div:first-child,
+.combinedresults.faith .multicolor-divider.combined-title div:first-child,
+.combinedresults.healing .multicolor-divider.combined-title div:first-child,
+.combinedresults.miracles .multicolor-divider.combined-title div:first-child {
+  border-color: #a72001;
+}
+.combinedresults.toungs .multicolor-divider.combined-title div:first-child:before,
+.combinedresults.faith .multicolor-divider.combined-title div:first-child:before,
+.combinedresults.healing .multicolor-divider.combined-title div:first-child:before,
+.combinedresults.miracles .multicolor-divider.combined-title div:first-child:before {
+  background: #a72001;
+}
+.combinedresults.toungs .multicolor-divider.combined-title div:nth-child(2),
+.combinedresults.faith .multicolor-divider.combined-title div:nth-child(2),
+.combinedresults.healing .multicolor-divider.combined-title div:nth-child(2),
+.combinedresults.miracles .multicolor-divider.combined-title div:nth-child(2) {
+  background: none;
+  border-bottom: 4px solid #db6128;
+}
+.combinedresults.toungs .multicolor-divider.combined-title div:nth-child(3),
+.combinedresults.faith .multicolor-divider.combined-title div:nth-child(3),
+.combinedresults.healing .multicolor-divider.combined-title div:nth-child(3),
+.combinedresults.miracles .multicolor-divider.combined-title div:nth-child(3)  {
+  background: none;
+  border-bottom: 4px solid #668d40;
+}
+.combinedresults.toungs .multicolor-divider.combined-title div:nth-child(4),
+.combinedresults.faith .multicolor-divider.combined-title div:nth-child(4),
+.combinedresults.healing .multicolor-divider.combined-title div:nth-child(4),
+.combinedresults.miracles .multicolor-divider.combined-title div:nth-child(4)  {
+  background: none;
+  border-bottom: 4px solid #0f5075;
+}
+.combinedresults.interpretationoftoungs .multicolor-divider.combined-title div:first-child,
+.combinedresults.discernment .multicolor-divider.combined-title div:first-child,
+.combinedresults.knowledge .multicolor-divider.combined-title div:first-child,
+.combinedresults.wisdom .multicolor-divider.combined-title div:first-child {
+  border-color: #dc6029;
+}
+.combinedresults.interpretationoftoungs .multicolor-divider.combined-title div:first-child:before,
+.combinedresults.discernment .multicolor-divider.combined-title div:first-child:before,
+.combinedresults.knowledge .multicolor-divider.combined-title div:first-child:before,
+.combinedresults.wisdom .multicolor-divider.combined-title div:first-child:before {
+  background: #dc6029;
+}
+.combinedresults.interpretationoftoungs .multicolor-divider.combined-title div:nth-child(2),
+.combinedresults.discernment .multicolor-divider.combined-title div:nth-child(2),
+.combinedresults.knowledge .multicolor-divider.combined-title div:nth-child(2),
+.combinedresults.wisdom .multicolor-divider.combined-title div:nth-child(2) {
+  background: none;
+  border-bottom: 4px solid #668d40;
+}
+.combinedresults.interpretationoftoungs .multicolor-divider.combined-title div:nth-child(3),
+.combinedresults.discernment .multicolor-divider.combined-title div:nth-child(3),
+.combinedresults.knowledge .multicolor-divider.combined-title div:nth-child(3),
+.combinedresults.wisdom .multicolor-divider.combined-title div:nth-child(3) {
+  background: none;
+  border-bottom: 4px solid #0f5075;
+}
+.combinedresults.interpretationoftoungs .multicolor-divider.combined-title div:nth-child(4),
+.combinedresults.discernment .multicolor-divider.combined-title div:nth-child(4),
+.combinedresults.knowledge .multicolor-divider.combined-title div:nth-child(4),
+.combinedresults.wisdom .multicolor-divider.combined-title div:nth-child(4) {
+  background: none;
+  border-bottom: 4px solid #a72001;
+}
+.combinedresults.prophecy .multicolor-divider.combined-title div:first-child,
+.combinedresults.teaching .multicolor-divider.combined-title div:first-child,
+.combinedresults.evangelism .multicolor-divider.combined-title div:first-child,
+.combinedresults.apostleship .multicolor-divider.combined-title div:first-child,
+.combinedresults.pastoring .multicolor-divider.combined-title div:first-child {
+  border-color: #658d40;
+}
+.combinedresults.prophecy .multicolor-divider.combined-title div:first-child:before,
+.combinedresults.teaching .multicolor-divider.combined-title div:first-child:before,
+.combinedresults.evangelism .multicolor-divider.combined-title div:first-child:before,
+.combinedresults.apostleship .multicolor-divider.combined-title div:first-child:before,
+.combinedresults.pastoring .multicolor-divider.combined-title div:first-child:before {
+  background: #658d40;
+}
+.combinedresults.prophecy .multicolor-divider.combined-title div:nth-child(2),
+.combinedresults.teaching .multicolor-divider.combined-title div:nth-child(2),
+.combinedresults.evangelism .multicolor-divider.combined-title div:nth-child(2),
+.combinedresults.apostleship .multicolor-divider.combined-title div:nth-child(2),
+.combinedresults.pastoring .multicolor-divider.combined-title div:nth-child(2) {
+  background: none;
+  border-bottom: 4px solid #0f5075;
+}
+.combinedresults.prophecy .multicolor-divider.combined-title div:nth-child(3),
+.combinedresults.teaching .multicolor-divider.combined-title div:nth-child(3),
+.combinedresults.evangelism .multicolor-divider.combined-title div:nth-child(3),
+.combinedresults.apostleship .multicolor-divider.combined-title div:nth-child(3),
+.combinedresults.pastoring .multicolor-divider.combined-title div:nth-child(3) {
+  background: none;
+  border-bottom: 4px solid #a72001;
+}
+.combinedresults.prophecy .multicolor-divider.combined-title div:nth-child(4),
+.combinedresults.teaching .multicolor-divider.combined-title div:nth-child(4),
+.combinedresults.evangelism .multicolor-divider.combined-title div:nth-child(4),
+.combinedresults.apostleship .multicolor-divider.combined-title div:nth-child(4),
+.combinedresults.pastoring .multicolor-divider.combined-title div:nth-child(4) {
+  background: none;
+  border-bottom: 4px solid #dc6029;
+}
+
+.combinedresults.administration .body-text-subsection-header:after,
+.combinedresults.exhortation .body-text-subsection-header:after,
+.combinedresults.serving .body-text-subsection-header:after,
+.combinedresults.leadership .body-text-subsection-header:after,
+.combinedresults.mercy .body-text-subsection-header:after,
+.combinedresults.giving .body-text-subsection-header:after  {
+  background: #0f5075;
+}
+
+.combinedresults.toungs .body-text-subsection-header:after,
+.combinedresults.faith .body-text-subsection-header:after,
+.combinedresults.healing .body-text-subsection-header:after,
+.combinedresults.miracles .body-text-subsection-header:after {
+  background: #a72001;
+}
+
+.combinedresults.interpretationoftoungs .body-text-subsection-header:after,
+.combinedresults.discernment .body-text-subsection-header:after,
+.combinedresults.knowledge .body-text-subsection-header:after,
+.combinedresults.wisdom .body-text-subsection-header:after {
+  background: #dc6029;
+}
+
+.combinedresults.prophecy .body-text-subsection-header:after,
+.combinedresults.teaching .body-text-subsection-header:after,
+.combinedresults.evangelism .body-text-subsection-header:after,
+.combinedresults.apostleship .body-text-subsection-header:after,
+.combinedresults.pastoring .body-text-subsection-header:after {
+  background: #658d40;
+}
+.body-text-subsection-header {
+    font-weight: bold;
+    margin: 25px 0px 5px -25px;
+}
+.body-text-subsection-header:after {
+    content: "";
+    width: 50px;
+    height: 3px;
+    border-radius: 50px;
+    position: relative;
+    display: block;
+}
+.combined-results-wrapper .body-text-subsection {
+    margin-left: 25px;
+}
+.combined-results-wrapper .body-text-subsection ul {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+}
+.combined-results-wrapper .body-text.dynamic {
+    height: 0px;
+    margin-top: -20px;
+    overflow: hidden;
+    transition: 1s;
+}
+.combined-results-wrapper .sub-header.active + div {
+    height: auto;
+    margin-top: 0px;
+    float: left;
+}
+.domain-facit {
+    float: left;
+    width: 25%;
+}
+.score {
+    width: 5%;
+    float: left;
+}
+.comparasin-chart {
+    float: left;
+    width: 65%;
+    margin-left: 5%;
+    margin-top: -10px;
+    border-bottom: 1px solid #333;
+    height: 40px;
+    padding: 10px 5px;
+    position: relative;
+}
+.comparasin-chart div {
+    position: absolute;
+}
+.personality-graph-head {
+    clear: both;
+    width: 100%;
+    position: relative;
+    display: block;
+    height: 50px;
+}
+.comparasin-chart div:nth-child(2) {
+    left: 10%;
+}
+.comparasin-chart div:nth-child(3) {
+    left: 20%;
+}
+.comparasin-chart div:nth-child(4) {
+    left: 30%;
+}
+.comparasin-chart div:nth-child(5) {
+    left: 40%;
+}
+.comparasin-chart div:nth-child(6) {
+    left: 50%;
+}
+.comparasin-chart div:nth-child(7) {
+    left: 60%;
+}
+.comparasin-chart div:nth-child(8) {
+    left: 70%;
+}
+.comparasin-chart div:nth-child(9) {
+    left: 80%;
+}
+.comparasin-chart div:nth-child(10) {
+    left: 90%;
+}
+.comparasin-chart div:nth-child(11) {
+    right: 5px;
+}
+.personality-results-graph {
+    padding: 25px;
+    margin: 50px 0px;
+    background: #f4f4f4;
+}
+div#main-content .trait-percentile .title {
+    width: 25%;
+    margin: 0px;
+    float: left;
+    font-size: 1.5em;
+    padding: 0px;
+    font-weight: bold;
+    transform: uppercase;
+}
+div#main-content .facit-percentile .title {
+    width: 25%;
+    margin: 0px;
+    float: left;
+    font-size: 1.5em;
+    padding: 0px;
+    text-indent: 15px;
+}
+.trait-percentile,
+.facit-percentile {
+    clear: both;
+    height: 20px;
+    margin-bottom: 15px;
+}
+.percentile {
+    width: 5%;
+    float: left;
+    padding: 0px 10px;
+}
+.percentile-bar-wrapper {
+    float: left;
+    width: 65%;
+    margin-left: 5%;
+    height: 15px;
+}
+.percentile-bar {
+    background: #f4f4f4;
+    height: 100%;
+    border: 1px solid #333;
+    border-radius: 0px 10px 10px 0px;
+}
+.trait-percentile .percentile-bar {
+    background: #3333333b;
+}
+.dynamic-statement-trait {
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+.facet-wrapper div.facet {
+    margin: 20px;
+}
+.facet-header {
+    font-weight: bold;
+}
+.facet-body {
+    padding: 5px 20px 0px;
+}
+.facet-header:after {
+    content: "";
+    width: 50px;
+    height: 3px;
+    border-radius: 50px;
+    background: #114f75;
+    position: relative;
+    display: block;
+}
+div#personality-trait-results {
+    padding: 0px 5%;
+}
+div#print-section p {
+    display: none;
+}
+.pom-small-black {
+    width: 100%;
+    background-position-x: center;
+}
+.printomatictext {
+    font-style: italic;
+    padding-top: 5px;
+}
+.print-wrapper-outline {
+    width: 135px;
+    padding: 10px 20px;
+    margin: 10px auto;
+    border: 1px solid #114f75;
+    color: #202020;
+    background: #f4f4f4;
+}
+.print-wrapper-outline:hover {
+    background: #fafafa;
+    box-shadow: 0px 2px 5px #00000040;
+}
+.printomatictext:hover {
+    text-decoration: none;
+}
+.dynamic-statement-facet {
+    font-style: italic;
+    padding: 5px 0px 0px;
+}
+.gform_wrapper .gform_body li.pq-question-field ul.gfield_radio > li label {
+    background-color: transparent !important;
+    padding-left: 0px !important;
+    box-shadow: none !important;
+}
+.gfield_description.validation_message {
+    padding: 0px !important;
+}
+li#field_4_2 {
+    width: 66.7%;
+    float: right;
+}
+span#input_4_17_6_container {
+    width: 100%;
+    padding: 0px;
+}
+label#input_4_17_6_label {
+    display: none;
+}
+span#input_4_2_1_container {
+    padding-right: 16px;
+}
+ul#input_4_19 li,
+ul#input_4_18 li {
+    float: left;
+    margin: 0px 0px 20px 20px !important;
+}
+div#church-results-page-wrapper {
+    width: 80%;
+    max-width: 1080px;
+    margin: auto;
+}
+div#church-results-page-wrapper table {
+    width: 100%;
+    color: #fff;
+    margin: 0px 0px 25px;
+}
+div#church-results-page-wrapper .subsection table {
+    margin: 0px 0px;
+}
+tr.tabel-header-row th {
+    background: #0f5075;
+    font-size: 1.5em;
+    padding: 15px;
+    border: 5px solid#fff;
+}
+div#church-results-page-wrapper tr td {
+    padding: 10px 5px;
+    margin: 0;
+    border: 5px solid #fff;
+    font-size: 1em;
+    text-align: center;
+    vertical-align: top;
+    text-transform: capitalize;
+}
+#church-results-page-wrapper .subsection {
+    height: 0px;
+    overflow: hidden;
+}
+#church-results-page-wrapper .subsection.active {
+    overflow: visible;
+}
+#church-results-page-wrapper .subsection.active {
+    height: 430px;
+    margin: 20px 0px;
+}
+#church-results-page-wrapper .manual .subsection.active {
+    height: 160px;
+}
+#church-results-page-wrapper .manual .subsection.active table {
+    width: 99%;
+}
+a.load-more {
+    color: #ffffff;
+}
+.button.expand-results {
+    cursor: pointer;
+}
+.subsection tr.tabel-header-row th {
+    font-size: 1.1em;
+    border: 1px solid;
+}
+div#church-results-page-wrapper .subsection tr td {
+    border: 1px solid;
+    font-size: 1em;
+}
+.expand-results .close {
+    display: none;
+}
+.expand-results.active .open {
+    display: none;
+}
+.expand-results.active .close {
+    display: block;
+}
+.expand-results .open {
+    display: block;
+}
+div#main-content.church-results-page .title {
+    padding: 50px 0px;
+}
+.redirect-message {
+    font-size: 1.3em;
+    margin: 0px 0px 100px;
+}
+#login-module-invisable-logedout div#gform_wrapper_12,
+#login-module-invisable-logedout div#gform_wrapper_15,
+#login-module-invisable-logedout div#gform_wrapper_14,
+#login-module-invisable-logedout div#gform_wrapper_16,
+#login-module-invisable-logedout div#gform_wrapper_19 {
+    height: 45px;
+    overflow: hidden;
+    cursor: pointer;
+    margin: 0px;
+}
+#login-module-invisable-logedout div#gform_wrapper_12 label.gfield_label,
+#login-module-invisable-logedoutdiv#gform_wrapper_15 label.gfield_label,
+#login-module-invisable-logedout div#gform_wrapper_14 label.gfield_label,
+#login-module-invisable-logedout div#gform_wrapper_16 label.gfield_label,
+#login-module-invisable-logedout div#gform_wrapper_19 label.gfield_label {
+  cursor: pointer;
+}
+#login-module-invisable-logedout div#gform_wrapper_12.active,
+#login-module-invisable-logedout div#gform_wrapper_15.active,
+#login-module-invisable-logedout div#gform_wrapper_14.active,
+#login-module-invisable-logedout div#gform_wrapper_16.active,
+#login-module-invisable-logedout div#gform_wrapper_19.active {
+  height: auto;
+}
+div#visable-to-role-churchadmin,
+.role-churchadmin div#invisable-to-role-churchadmin,
+body.role-administrator div#invisable-to-role-churchadmin.invisable-to-role-administrator {
+    display: none;
+}
+.role-churchadmin div#visable-to-role-churchadmin,
+div#invisable-to-role-churchadmin,
+.role-administrator div#visable-to-role-churchadmin,
+.role-administratordiv#invisable-to-role-churchadmin {
+    display: block;
+}
+#icon-menu .sub-header {
+    font-weight: bold;
+    padding: 0px 0px 25px;
+    color: #114f75;
+}
+.top-three-gifts.quick-summary-table {
+    padding: 0% 5% 0% 0%;
+}
+.personality-results.quick-summary-table {
+    padding: 0% 0% 0% 5%;
+}
+.purchase-more.button,
+.download-csv.button,
+.manual-entry.button {
+    width: auto;
+    float: left;
+    padding: 15px;
+    margin: 25px 5px 25px 0px;
+    background: #dd5f29;
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.tests-remaining {
+    float: right;
+    margin: 25px 25px;
+    padding: 15px 0px;
+    font-size: 2em;
+    color: #114f75;
+    font-style: italic;
+    font-weight: bold;
+}
+#church-results-page-wrapper td {
+    background: #333;
+}
+.gform_wrapper input#gf_coupon_button.button {
+    margin-left: 5px;
+    background-color: #fff;
+    color: #0d5175;
+    border-width: 2px;
+    border-color: #0d5175;
+    border-radius: 3px;
+    font-family: 'inherit', sans-serif;
+    font-size: 18px;
+    letter-spacing: 0px;
+}
+.gform_wrapper input#gf_coupon_button.button:hover {
+    background-color: rgba(0,0,0,.05);
+    color: #0d5175;
+    border-color: transparent;
+    border-radius: 3px;
+    letter-spacing: 0px;
+}
+#quick-links .quick-links {
+    font-weight: bold;
+    font-size: 1.5em;
+    margin: 20px 0px 10px;
+    padding: 0px 0px 10px;
+}
+#quick-links #gform_wrapper_12 h3.gform_title,
+#quick-links #gform_wrapper_19 h3.gform_title {
+    font-size: 1em;
+    color: #a72001;
+    margin-left: 20px;
+}
+#quick-links a {
+    margin-left: 20px;
+}
+.no-result-yet {
+    text-align: center;
+    margin: 0px 0px 50px;
+    font-size: 1.5em;
+}
+#input_17_3 div.ginput_container.ginput_container_date {
+    width: 33.3%;
+    margin-top: 0px;
+}
+#input_17_3 select {
+    width: 100%;
+}
+div#filter {
+    clear: both;
+    margin: 25px 0px 0px;
+    padding: 25px 0px 0px 5px;
+    border-top: 1px solid #114f75;
+}
+#filter label {
+    color: #124e74;
+    font-size: 1.5em;
+    font-weight: bold;
+    vertical-align: middle;
+}
+#filter select#filter-select,
+#filter #filter-input input,
+#filter #filter-input select {
+    height: 40px;
+    background: #114f75;
+    color: #fff;
+    font-size: 1em;
+    font-weight: bold;
+    border: 1px solid #fff;
+    margin: 0px 10px;
+    border-radius: 5px;
+    padding: 10px;
+}
+.ui-widget-header {
+    background: #114f75 !important;
+    border: 1px solid #114f75 !important;
+}
+.ui-state-hover,
+.ui-widget-content.ui-state-hover,
+.ui-widget-header .ui-state-hover,
+.ui-state-focus,
+.ui-widget-content .ui-state-focus,
+.ui-widget-header .ui-state-focus {
+    background: none !important;
+    border: 1px solid #114f75 !important;
+    color: #fff !important;
+}
+.ui-widget-content .ui-state-highlight,
+.ui-widget-header .ui-state-highlight {
+    border: 1px solid #114f75 !important;
+    background: #dd5f2940 !important;
+    color: #114f75 !important;
+}
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default {
+    color: #114f75 !important;
+}
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active {
+    border: 1px solid #668d40 !important;
+}
+div#church-access-codes {
+    padding: 25px 0px 0px;
+}
+h3.access-codes-header {
+    font-weight: bold;
+}
+div.access-code {
+    padding: 10px 15px 0px;
+    width: 100%;
+    float: none;
+    clear: both;
+    height: 30px;
+}
+div#embed-access-code {
+    height: 60px;
+}
+div#embed-access-code span.access-code {
+    float: left;
+    width: 100%;
+    clear: right;
+    padding: 20px;
+    margin: 20px 0;
+    font-size: 1.5em;
+    line-height: 1.4em;
+    border: 1px solid;
+    background: #f2f2f2;
+}
+body#embeded-code {
+    padding: 60px;
+}
+h4.access-code-title:after {
+    content: " - ";
+}
+h4.access-code-title {
+    float: left;
+    clear: both;
+    padding: 0px 5px 0px 0px;
+}
+span.access-code {
+    color: #124e74;
+    font-size: 1.6em;
+    font-weight: bold;
+    font-style: italic;
+}
+#embed-login-option {
+    margin-bottom: 15px;
+    min-height: 25px;
+}
+#embed-login-option.active form#loginform {
+	display: block;
+    opacity: 1;
+    margin-top: 10px;
+    height: auto;
+    transition: 1s;
+}
+#embed-login-option form#loginform {
+    opacity: 0;
+    margin-top: 0px;
+    display: none;
+    clear: both;
+    height: 0px;
+    transition: 1s;
+}
+#embed-login-option input {
+    background: #eee;
+    font-size: 1.5em;
+    padding: 5px;
+}
+#embed-login-option span.no-account,
+#embed-login-option a.lost-password {
+  display: none;
+}
+#embed-login-option.active span.no-account,
+#embed-login-option.active a.lost-password {
+  display: inline-block;
+}
+#embed-login-option.active span.has-account {
+  display: none;
+}
+#embed-login-option a.lost-password {
+    margin: 5px;
+    width: 122px;
+    text-align: center;
+}
+div#login-opener {
+    color: #0f5075;
+    display: inline-block;
+    cursor: pointer;
+}
+div#login-opener:hover {
+    opacity: .8;
+}
+#embed-login-option label {
+    clear: both;
+    display: block;
+}
+#embed-login-option input#wp-submit {
+    background: #ffffff;
+    color: #0f5075;
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 10px 35px;
+    font-size: 1.3em;
+    cursor: pointer;
+    transition: .5s;
+}
+#embed-login-option input#wp-submit:hover {
+    background: #eee;
+    border: none;
+}
+div#gform_wrapper_21.hidden {
+    display: none;
+}
+div#gform_wrapper_21.hidden {
+    display: none;
+}
+
+body.role-churchadmin div#wpadminbar {
+    display: none;
+}
+body.admin-bar.et_fixed_nav.role-churchadmin #main-header,
+body.admin-bar.et_fixed_nav.role-churchadmin #top-header,
+body.admin-bar.et_non_fixed_nav.et_transparent_nav.role-churchadmin #main-header,
+body.admin-bar.et_non_fixed_nav.et_transparent_nav.role-churchadmin #top-header {
+    top: 0px;
+}
+body.admin-bar.et_fixed_nav.et_secondary_nav_enabled.role-churchadmin #main-header,
+body.admin-bar.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_enabled.role-churchadmin #main-header {
+    top: 35px !important;
+}
+body .gform_wrapper .gform_footer.active:after {
+    content: "";
+    width: 50px;
+    height: 50px;
+    right: 50%;
+    top: 50%;
+    margin-top: 0px;
+    position: absolute;
+    border: 10px solid #ffffff;
+    border-top: 10px solid #0f5075;
+    border-left: 10px solid #a72001;
+    border-bottom: 10px solid #db6128;
+    border-right: 10px solid #668d40;
+    border-radius: 100px;
+    animation: spin 1.5s linear infinite;
+}
+a.full-report-link {
+    color: #fff;
+}
+.NewsLetterSignUpinner {
+    padding: 50px;
+    border: 1px solid #fff;
+    background: rgba(15, 80, 117, 1);
+    opacity: 0;
+    transform: rotate(-25deg);
+    transition: 5s;
+}
+.NewsLetterSignUp.aboutaleave .NewsLetterSignUpinner {
+    transform: rotate(0deg);
+    opacity: 1;
+}
+.NewsLetterSignUp.hidepopup .NewsLetterSignUpinner {
+    transform: rotate(25deg);
+    opacity: 0;
+}
+.NewsLetterSignUp,
+.NewsLetterSignUp.notleavinyet {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 125vh;
+    left: 0%;
+    top: 0px;
+    z-index: 999999999;
+    background: rgba(15, 80, 117, 0.7);
+    padding: 180px 35% 20px;
+    color: #fff;
+    transition: .5s;
+}
+body.scrolled .NewsLetterSignUp,
+body.scrolled .NewsLetterSignUp.notleavinyet {
+    padding: 130px 35% 20px;
+}
+.NewsLetterSignUp.aboutaleave {
+    display: block;
+}
+.NewsLetterSignUp.hidepopup {
+    display: none;
+}
+.NewsLetterSignUp h3.gform_title {
+    color: #fff;
+    text-align: center;
+}
+.NewsLetterSignUp span.gform_description {
+    text-align: center;
+}
+div#gform_wrapper_24 {
+    margin: 0px;
+}
+ul#gform_fields_24 {
+    padding: 0px;
+}
+li#field_24_1,
+li#field_24_2 {
+    padding: 0px;
+    margin: 0px;
+}
+.NewsLetterSignUp .gform_wrapper .gform_body {
+    width: 100%;
+}
+.NewsLetterSignUp label {
+    display: none !important;
+}
+.NewsLetterSignUp .gform_footer.top_label {
+    margin: 0px;
+    padding: 0px;
+}
+input#gform_submit_button_24 {
+    width: 100%;
+    border: 1px solid #fff;
+    transition: .5s;
+}
+input#gform_submit_button_24:hover {
+    background: none;
+    color: #fff;
+}
+span#input_24_1_3_container {
+    padding-right: 8px;
+}
+.NewsLetterSignUp .gform_description strong {
+    font-size: 1.2em;
+}
+.NewsLetterSignUpex {
+    float: right;
+    margin: -75px -90px 0px 0px;
+    border: 1px solid #fff;
+    border-radius: 150px;
+    height: 25px;
+    width: 25px;
+    text-align: center;
+    padding: 1px 0px;
+    font-size: 0.8em;
+    opacity: 0.8;
+    cursor: pointer;
+}
+.NewsLetterSignUpex.hover {
+    opacity: 1;
+}
+.NewsLetterSignUp .gform_confirmation_wrapper strong {
+    font-size: 1.5em;
+}
+.NewsLetterSignUp .gform_confirmation_wrapper a {
+    color: #fff;
+}
+div#gform_confirmation_wrapper_24 {
+    text-align: center;
+}
+.NewsLetterSignUp input#copyTarget {
+    background: none;
+    color: #fff;
+    border: none;
+    width: 100%;
+    text-align: center;
+    font-size: 1.5em;
+}
+button#copyButton {
+    background: none;
+    color: #fff;
+    padding: 7px 20px;
+    margin: 20px 0px 0px;
+    font-size: 1.1em;
+}
+button#copyButton:hover {
+    background: #fff;
+    color: #114f75;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 747px) {
+    .test-wrap .button {
+        width: 148px !important;
+    }
+    .test-wrap .gform_wrapper .gf_progressbar_percentage span {
+        line-height: 2.3;
+        font-size: 1.5em;
+    }
+    .test-wrap .ginput_container.ginput_container_radio {
+        width: 300px;
+    }
+    .page-id-3273 h1,
+    .page-template-landing-page h1 {
+        font-size: 3rem;
+    }
+    .page-template-landing-page button {
+        font-size: 1.1rem;
+        margin-top: 24px;
+    }
+    .front-page-image-logo-container .logo img {
+        width: 40%;
+        margin-top: 35px;
+    }
+    .section-5 h2 {
+        padding-top: 40px;
+    }
+    body#embeded-code {
+        padding: 10px;
+    }
+    .test-wrap .gform_wrapper ul.gform_fields li.gfield {
+        height: 300px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    #main-content .container {
+        width: 100%;
+    }
+    .front-page-1,
+    .front-page-2,
+    .front-page-3,
+    .front-page-4,
+    .section-1,
+    .section-2,
+    .section-3,
+    .section-4,
+    .section-5,
+    .section-6,
+    .section-7,
+    .section-8 {
+        padding: 0px 2.5%;
+    }
+    .page-template-landing-page .section-1 {
+        background-size: cover !important;
+        background-position-y: 0px !important;
+    }
+    .section-1 .image.wrap {
+        max-width: 300px !important;
+        display: inline-block;
+        text-align: center;
+        width: 25%;
+    }
+    .test-wrap .gform_wrapper .gf_progressbar_percentage span {
+        line-height: 2.6;
+        font-size: 1.3em;
+    }
+}
+
+/* Iframe form */
+
+.inline-input {
+    display: inline-block;
+    width: 47.5%;
+}
+
+.custom_wc_login_form input[type=text], input[type=tel], input[type=password], input[type=email], select {
+    width: 100%;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	box-shadow: inset 0 1px 3px #ddd;
+	border-radius: 4px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+
+.custom_wc_login_form select {
+    width: 35%;
+}
+
+.custom_wc_login_form button {
+    width: 200px;
+    height: 60px;
+    font-size: 18px;
+    margin-top: 12px;
+}
+
+.custom_wc_login_form input[type=checkbox] {
+    margin-top: 12px;
+}
